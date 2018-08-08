@@ -6,6 +6,8 @@ ___
  
 ### The Code
 
+__by value:__
+
 ```js
 let a = 'a';
 let b = 'b';
@@ -18,7 +20,22 @@ b = holder;
 
 [Live PyTut link](https://goo.gl/xEHkmQ)
 
+__by reference:__
+
+```js
+let a = ['a'];
+let b = ['b'];
+let holder = null;
+
+holder = a;
+a = b;
+b = holder;
+```
+
+[Live PyTut Link](https://goo.gl/aZNzQ9)
+
 Parsons Practice: [the logic](https://elewa-academy.github.io/parsons/examples-to-study/variables-and-types.html#value-swap-logic), [the javascript](https://elewa-academy.github.io/parsons/examples-to-study/variables-and-types.html#value-swap-js)
+
 
 ___
 
